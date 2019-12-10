@@ -1,0 +1,28 @@
+{
+  "name": "sensitive-word-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "include": [
+      "src/*.ts"
+  ],
+  "target": "es6",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "node ./bin/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiyhome/sensitive-word-helper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aiyhome/sensitive-word-helper/issues"
+  },
+  "homepage": "https://github.com/aiyhome/sensitive-word-helper#readme",
+  "dependencies": {
+    "typescript": "^3.6.2"
+  }
+}
